@@ -37,6 +37,8 @@ NAVDATA_OPTION( navdata_wind_speed_t,     navdata_wind_speed      , NAVDATA_WIND
 NAVDATA_OPTION( navdata_kalman_pressure_t,navdata_kalman_pressure	, NAVDATA_KALMAN_PRESSURE_TAG	 )
 NAVDATA_OPTION( navdata_hdvideo_stream_t ,navdata_hdvideo_stream  , NAVDATA_HDVIDEO_STREAM_TAG	 )
 NAVDATA_OPTION( navdata_wifi_t           ,navdata_wifi            , NAVDATA_WIFI_TAG             )
+NAVDATA_OPTION( navdata_28_t           ,navdata_28            , NAVDATA_28_TAG             )
+NAVDATA_OPTION( navdata_29_t           ,navdata_29            , NAVDATA_29_TAG             )
 
 
 // TODO: maybe navdata_zimmu_3000 coult be integrated into an existing navdata like navdata_adc_data_frame_t or ...

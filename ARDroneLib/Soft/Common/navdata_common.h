@@ -752,6 +752,18 @@ typedef struct _navdata_wifi_t {
   uint32_t link_quality;
 }_ATTRIBUTE_PACKED_  navdata_wifi_t;
 
+typedef struct _navdata_28_t {
+  uint16_t  tag;
+  uint16_t  size;
+  uint8_t data[6];
+}_ATTRIBUTE_PACKED_  navdata_28_t;
+
+typedef struct _navdata_29_t {
+  uint16_t  tag;
+  uint16_t  size;
+  uint8_t data[32];
+}_ATTRIBUTE_PACKED_  navdata_29_t;
+
 #if defined(_MSC_VER)
 	/* Go back to default packing policy */
 	#pragma pack()
